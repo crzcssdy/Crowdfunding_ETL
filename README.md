@@ -4,29 +4,31 @@
 ## Description
 For this project, our group worked together to build an ETL pipeline using Python, Pandas, and regular expressions to extract and transform the data. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Afterwards, we upload the CSV file data into a Postgres database and saved the results in the repository.
 
+
+## Create the Category and Subcategory DataFrames
+To run the ETL_Mini_Project file, you will need to first import pandas as pd and numpy as np.
+
+
 ## The Crowdfunding Database
 ### Dependencies
 * PostgreSQL
 * pgAdmin
 * The following .csv files are required in order to populate the database (contained in the 'data' folder ):
-    * titles.csv
-    * employees.csv
-    * salaries.csv
-    * dept_manager.csv
-    * dept_emp.csv
-    * departments.csv
+    * campaign.csv
+    * category.csv
+    * contacts.csv
+    * subcategory.csv
 
 
 ### Installing & Execution
-1. Open 'employeesql_table schemata.sql' in pgAdmin and run the queries in lines 1-60 to create the tables into a PostgreSQL database.
+1. Open 'crowdfunding_db_schema.sql' in pgAdmin and run the queries in lines 1-48 to create the tables into a PostgreSQL database.
 
 (**Note: While the tables can be created in an existing database, it is recommended to create a new dedicated database since the file includes code that will drop any duplicate named tables that may exist**)
 
-2. Once the tables are created, use the Import/Export tool in pgAdmin to import the data from the .csv files located in the 'data' folder into their respective tables of the same name (ex: import data from 'departments.csv' into table 'departments).  To avoid errors, import the data in the same order as the corresponding tables were created and account for the headers when doing the imports.
+2. Once the tables are created, use the Import/Export tool in pgAdmin to import the data from the .csv files located in the 'data' folder into their respective tables of the same name (ex: import data from 'category.csv' into table 'category').  To avoid errors, import the data in the same order as the corresponding tables were created and account for the headers when doing the imports.
 
-3. Lines 63-80 of 'employeesql_table schemata.sql' can be run to verify that the data has been populated into the tables
+3. Lines 50-61 of 'crowdfunding_db_schema.sql' can be run to verify that the data has been populated into the tables
 
-4. Once the tables have been created and populated, open 'employeesql_analysis queries.sql' in pgAdmin.  The queries to create the several desired views can be run individually for analysis.
 
 ## Authors
 
