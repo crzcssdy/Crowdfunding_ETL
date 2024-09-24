@@ -1,4 +1,4 @@
-# Crowdfunding_ETL
+# Project 2: Crowdfunding_ETL
 
 
 ## Description
@@ -28,7 +28,7 @@
 
 ## Authors
 
-Daniel Pineda
+Assiba Lea Apovo, Cassidy Cruz, Widchy Joachim, Daniel Pineda, and Edward Tabije 
 
 ## Acknowledgments
 Crowdfunding_ETL was created as an assignment for the University of California, Irvine Data Analytics Bootcamp - June 2024 Cohort under the instruction and guidance of Melissa Engle (Instructor) and Mitchell Stone (TA).
