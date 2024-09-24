@@ -2,7 +2,9 @@
 
 
 ## Description
+For this project, our group worked together to build an ETL pipeline using Python, Pandas, and regular expressions to extract and transform the data. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Afterwards, we upload the CSV file data into a Postgres database and saved the results in the repository.
 
+## The Crowdfunding Database
 ### Dependencies
 * PostgreSQL
 * pgAdmin
