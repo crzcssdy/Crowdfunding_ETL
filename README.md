@@ -8,6 +8,7 @@ For this project, our group worked together to build an ETL pipeline using Pytho
 ## Create the Category and Subcategory DataFrames
 To run the ETL_Mini_Project file, you will need to first import pandas as pd and numpy as np.
 
+Additionally, you will need to import the contents of the Resources folder, such as campaign.csv and contacts.csv to run the code.
 
 ## The Crowdfunding Database
 ### Dependencies
@@ -27,7 +28,7 @@ To run the ETL_Mini_Project file, you will need to first import pandas as pd and
 
 2. Once the tables are created, use the Import/Export tool in pgAdmin to import the data from the .csv files located in the 'data' folder into their respective tables of the same name (ex: import data from 'category.csv' into table 'category').  To avoid errors, import the data in the same order as the corresponding tables were created and account for the headers when doing the imports.
 
-3. Lines 50-61 of 'crowdfunding_db_schema.sql' can be run to verify that the data has been populated into the tables
+3. Lines 50-61 of 'crowdfunding_db_schema.sql' can be run to verify that the data has been populated into the tables.
 
 
 ## Authors
