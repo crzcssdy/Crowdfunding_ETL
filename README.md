@@ -5,7 +5,7 @@
 For this project, our group worked together to build an ETL pipeline using Python, Pandas, and regular expressions to extract and transform the data. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Afterwards, we upload the CSV file data into a Postgres database and saved the results in the repository.
 
 
-## Create the Category and Subcategory DataFrames
+## Working with the DataFrames
 To run the ETL_Mini_Project file, you will need to first import pandas as pd and numpy as np.
 
 Additionally, you will need to import the contents of the Resources folder, such as campaign.csv and contacts.csv to run the code.
